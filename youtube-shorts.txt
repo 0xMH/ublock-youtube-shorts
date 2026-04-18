@@ -1,0 +1,21 @@
+! Title: YouTube Shorts Blocker
+! Description: Hides all YouTube Shorts surfaces (shelves, cards, sidebar, tabs, chips)
+! Homepage: https://github.com/mohamedhamza/ublock-youtube-shorts
+! Expires: 7 days
+! License: MIT
+
+! YouTube - hide all Shorts (shelves, cards, sidebar, tabs, chips)
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
+www.youtube.com##ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts])
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-item-section-renderer:has(ytd-reel-shelf-renderer)
+www.youtube.com##ytd-video-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-grid-video-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-rich-item-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytm-shorts-lockup-view-model
+www.youtube.com##ytm-shorts-lockup-view-model-v2
+www.youtube.com##ytd-reel-item-renderer
+www.youtube.com##ytd-guide-entry-renderer:has(a[title="Shorts"])
+www.youtube.com##ytd-mini-guide-entry-renderer[aria-label="Shorts"]
+www.youtube.com##ytd-pivot-bar-item-renderer:has([tab-title="Shorts"])
+www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string[title="Shorts"])

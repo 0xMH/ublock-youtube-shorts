@@ -1,6 +1,6 @@
 ! Title: YouTube Shorts Blocker
 ! Description: Hides all YouTube Shorts surfaces (shelves, cards, sidebar, tabs, chips)
-! Homepage: https://github.com/mohamedhamza/ublock-youtube-shorts
+! Homepage: https://github.com/0xMH/ublock-youtube-shorts
 ! Expires: 7 days
 ! License: MIT
 

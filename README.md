@@ -9,7 +9,7 @@ A uBlock Origin filter list that hides all YouTube Shorts surfaces: shelves, car
 3. Paste the raw URL of `youtube-shorts.txt`:
 
 ```
-https://raw.githubusercontent.com/mohamedhamza/ublock-youtube-shorts/main/youtube-shorts.txt
+https://raw.githubusercontent.com/0xMH/ublock-youtube-shorts/main/youtube-shorts.txt
 ```
 
 4. Click **Apply changes**.

@@ -18,4 +18,8 @@ www.youtube.com##ytd-reel-item-renderer
 www.youtube.com##ytd-guide-entry-renderer:has(a[title="Shorts"])
 www.youtube.com##ytd-mini-guide-entry-renderer[aria-label="Shorts"]
 www.youtube.com##ytd-pivot-bar-item-renderer:has([tab-title="Shorts"])
+www.youtube.com##yt-tab-shape[tab-title="Shorts"]
 www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string[title="Shorts"])
+www.youtube.com##yt-chip-cloud-chip-renderer:has-text(/^\s*Shorts\s*$/)
+www.youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model)
+www.youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)
